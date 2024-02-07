@@ -1,5 +1,5 @@
+-------------------
 .hero-section {
-<<<<<<< Updated upstream
     padding: 302px 0 260px;
     background-image: url(../img/hero/hero-image-mob.jpg);
     background-repeat: no-repeat;
@@ -39,30 +39,12 @@
         margin-bottom: 24px;
 }
 
-=======
-}
-.hero-wrap{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.hero-title {
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 100%;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #fbfbfb;
-}
-
->>>>>>> Stashed changes
 .hero-text {
         font-weight: 300;
         font-size: 12px;
         line-height: 117%;
         text-align: center;
         color: rgba(251, 251, 251, 0.7);
-<<<<<<< Updated upstream
         margin-bottom: 38px;
 }
 
@@ -90,20 +72,3 @@
 
 
 
-=======
-}
-
-.hero-button {
-    background-color: #1b414b;
-    border-radius: 15px;
-
-    padding: 14px 32px;
-    width: 141px;
-    height: 46px;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 129%;
-        letter-spacing: -0.02em;
-        color: #fbfbfb;
-}
->>>>>>> Stashed changes
