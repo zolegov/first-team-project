@@ -1,5 +1,5 @@
 .hero-section {
-    padding: 302px 0 260px;
+    padding: 260px 0 302px;
     background-image: url(../img/hero/hero-image-mob.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -65,4 +65,43 @@
 .hero-button:active {
     background-color: #fbfbfb;
     color: #1b414b;
+}
+
+/**-------------------tablet-----------------*/
+@media screen and (min-width: 768px){
+    .hero-section {
+            padding: 280px 0 282px;
+            background-image: url(../img/hero/hero-image-tab.jpg);
+            max-width: 768px;
+        }
+    @media screen and (min-device-pixel-ratio: 2),
+        (min-resolution: 2dppx),
+        (min-resolution: 192dpi) {
+            .hero-section {
+                background-image: url(../img/hero/hero-image-tab-2x.jpg);
+            }
+    }
+    .hero-title{
+            font-size: 70px;
+            line-height: 0.90;
+    }
+    .hero-text{
+        margin-bottom: 48px;
+    }
+}
+/**-----------------desctop-------------------*/
+@media screen and (min-width: 1280px) {
+    .hero-section {
+            padding: 235px 0 215px;
+            background-image: url(../img/hero/hero-image-desc.jpg);
+            max-width: 1280px;
+        }
+    
+        @media screen and (min-device-pixel-ratio: 2),
+        (min-resolution: 2dppx),
+        (min-resolution: 192dpi) {
+            .hero-section {
+                background-image: url(../img/hero/hero-image-desc-2x.jpg);
+            }
+        }
 }
