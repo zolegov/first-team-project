@@ -1,4 +1,8 @@
-.advantage-item {
+.advantage {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 .container {
 }
@@ -51,7 +55,6 @@
   text-align: left;
 }
 .advantage-img {
-  display: block;
-  width: 100%;
-  flex-shrink: 0;
+  width: 335px;
+  border-radius: 24px;
 }
