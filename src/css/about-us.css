@@ -1,8 +1,9 @@
 .about-us {
   background-color: #fbfbfb;
-  margin-left: 20px;
-  margin-right: 20px;
   border-radius: 24px;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .container {
@@ -15,9 +16,17 @@
   line-height: 1;
   letter-spacing: -0.02em;
   color: #1b414b;
+  margin-bottom: 40px;
 }
 
-.about-title-two {
+.about-text-block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 40px;
+}
+
+.about-text-one {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -26,7 +35,7 @@
   color: #1b414b;
 }
 
-.about-text {
+.about-text-two {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 12px;
