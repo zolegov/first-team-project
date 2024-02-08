@@ -1,3 +1,7 @@
+.advantage-item {
+}
+.container {
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -12,20 +16,23 @@
   overflow: hidden;
 }
 .advantage-list {
-  display: flex;
-  width: 768px;
-  height: 424px;
+  width: 335px;
+  height: 642px;
   background-color: #1b414b;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 .advantage-item {
-  max-width: 318px;
-  height: 100px;
+  padding-left: 20px;
 }
 .advantage-subtitre {
   width: 34px;
   height: 28px;
-  top: 214px;
-  left: 20px;
   color: #fbfbfb;
   font-family: Inter;
   font-size: 32px;
@@ -42,4 +49,9 @@
   line-height: 1.15;
   letter-spacing: -0.02em;
   text-align: left;
+}
+.advantage-img {
+  display: block;
+  width: 100%;
+  flex-shrink: 0;
 }
