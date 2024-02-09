@@ -99,6 +99,7 @@
   }
   .advantage-item {
     padding-left: 32px;
+    width: 304px;
   }
 }
 
@@ -116,5 +117,8 @@
   .advantage-list {
     width: 714px;
     height: 424px;
+  }
+  .advantage-item {
+    width: 292px;
   }
 }
