@@ -13,7 +13,7 @@
     <title>YachtJet</title>
     
     <script type="module" crossorigin src="/first-team-project/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/first-team-project/assets/index-4a505411.css">
+    <link rel="stylesheet" href="/first-team-project/assets/index-fe999ab1.css">
   </head>
   <body>
     <header class="header">
@@ -358,12 +358,11 @@
 </section>
 
       <section class="advantage">
-  <div class="container">
+  <div class="container advantage-conteiner">
     <h2 class="visually-hidden">advantage</h2>
-    <ol class="advantage-list">
+    <ul class="advantage-list">
       <li class="advantage-item">
         <h3 class="advantage-subtitre">01</h3>
-        <a class="current" href=""></a>
         <p class="advantage-text">
           Swimming and water sports: try your hand at water skiing
         </p>
@@ -386,14 +385,26 @@
           outdoor atmosphere.
         </p>
       </li>
-    </ol>
-    <img
-      src="/first-team-project/assets/jahta-mob-min-dc2328bc.jpg"
-      alt="jahta"
-      width="540"
-      height="424"
-      class="advantage-img"
-    />
+    </ul>
+    <pictures>
+      <source
+        srcset="/first-team-project/assets/jahtadektop-min-229ff9e8.jpg 1x, /first-team-project/assets/jahtadektop-2x-min-4f4534a3.jpg 2x"
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="/first-team-project/assets/jahtaplanshet-min-707c4315.jpg 1x, /first-team-project/assets/jahtaplanshet-2x-min-9a61e754.jpg 2x"
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="/first-team-project/assets/jahta-mob-min-dc2328bc.jpg 1x, /first-team-project/assets/jahta-mobile-2x-min-60c1a19c.jpg 2x"
+        media="(min-width: 375px)"
+      />
+      <img
+        src="/first-team-project/assets/jahtadektop-min-229ff9e8.jpg"
+        alt="jahta"
+        class="advantage-img"
+      />
+    </pictures>
   </div>
 </section>
 
