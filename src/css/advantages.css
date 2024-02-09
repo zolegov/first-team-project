@@ -82,10 +82,10 @@
     justify-content: center;
     gap: 32px, 44px;
     width: 704px;
-    background-color: #1b414b;
     padding-left: 32px;
     padding-bottom: 90px;
     padding-top: 90px;
+    margin-bottom: 32px;
   }
   .advantage-item {
   }
@@ -105,6 +105,5 @@
   .advantage-list {
     width: 714px;
     height: 424px;
-    background-color: #1b414b;
   }
 }
