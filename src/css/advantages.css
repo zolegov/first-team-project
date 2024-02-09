@@ -40,6 +40,15 @@
 .advantage-item {
   padding-left: 20px;
 }
+.advantage-item:not(:last-child)::after {
+  content: '';
+  width: 295px;
+  height: 2px;
+  left: 20px;
+  top: 260px;
+  position: absolute;
+  background-color: #fbfbfb1a;
+}
 .advantage-subtitre {
   color: #fbfbfb;
   font-family: Inter;
