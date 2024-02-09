@@ -70,6 +70,7 @@
 /**-------------------tablet-----------------*/
 @media screen and (min-width: 768px){
     .hero-section {
+        display: flex;
             padding: 280px 0 282px;
             background-image: url(../img/hero/hero-image-tab.jpg);
             max-width: 768px;
@@ -86,7 +87,9 @@
             line-height: 0.90;
     }
     .hero-text{
+        max-width: 597px;
         margin-bottom: 48px;
+        font-size: 16px;
     }
 }
 /**-----------------desctop-------------------*/
@@ -103,5 +106,9 @@
             .hero-section {
                 background-image: url(../img/hero/hero-image-desc-2x.jpg);
             }
+        }
+        .hero-title{
+            font-size: 80px;
+            max-width: 1001px;
         }
 }
