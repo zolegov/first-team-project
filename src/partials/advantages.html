@@ -1,20 +1,22 @@
 <section class="advantage">
-  <div class="container">
+  <div class="container advantage-conteiner">
     <h2 class="visually-hidden">advantage</h2>
-    <ol class="advantage-list">
+    <ul class="advantage-list">
       <li class="advantage-item">
         <h3 class="advantage-subtitre">01</h3>
-        <a class="current" href=""></a>
+        <hr class="advantage-subtitre-hr" />
         <p class="advantage-text">
           Swimming and water sports: try your hand at water skiing
         </p>
       </li>
       <li class="advantage-item">
         <h3 class="advantage-subtitre">02</h3>
+        <hr class="advantage-subtitre-hr" />
         <p class="advantage-text">Fishing: try to catch your own dinner</p>
       </li>
       <li class="advantage-item">
         <h3 class="advantage-subtitre">03</h3>
+        <hr class="advantage-subtitre-hr" />
         <p class="advantage-text">
           Sightseeing tours: take a shore or island tour, enjoy the views and
           sunsets from the water
@@ -22,18 +24,40 @@
       </li>
       <li class="advantage-item">
         <h3 class="advantage-subtitre">04</h3>
+        <hr class="advantage-subtitre-hr" />
         <p class="advantage-text">
           Rest and relaxation: read a book or listen to music while enjoying the
           outdoor atmosphere.
         </p>
       </li>
-    </ol>
-    <img
-      src="./img/advantage/jahta-mob-min.jpg"
-      alt="jahta"
-      width="540"
-      height="424"
-      class="advantage-img"
-    />
+    </ul>
+    <pictures>
+      <source
+        srcset="
+          ./img/advantage/jahtadektop-min.jpg    1x,
+          ./img/advantage/jahtadektop-2x-min.jpg 2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
+          ./img/advantage/jahtaplanshet-min.jpg    1x,
+          ./img/advantage/jahtaplanshet-2x-min.jpg 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="
+          ./img/advantage/jahta-mob-min.jpg       1x,
+          ./img/advantage/jahta-mobile-2x-min.jpg 2x
+        "
+        media="(min-width: 375px)"
+      />
+      <img
+        src="./img/advantage/jahtadektop-min.jpg"
+        alt="jahta"
+        class="advantage-img"
+      />
+    </pictures>
   </div>
 </section>
