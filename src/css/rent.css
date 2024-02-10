@@ -4,7 +4,8 @@
   width: 375px;
   min-height: 812px; */
 }
-.rent-imput-container {
+
+.rent-imput-form {
   display: flex;
   flex-direction: column;
   gap: 18px;
