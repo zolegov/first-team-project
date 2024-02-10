@@ -2,6 +2,7 @@
   display: block;
   align-items: center;
   justify-content: center;
+  padding-bottom: 80px;
 }
 .container {
   max-width: 375px;
@@ -80,6 +81,9 @@
   justify-content: center;
 }
 @media screen and (min-width: 768px) {
+  .advantage {
+    padding-bottom: 150px;
+  }
   .container {
     max-width: 734px;
     padding-left: 32px;
@@ -107,7 +111,7 @@
   .advantage-conteiner {
     display: flex;
     align-items: center;
-    padding: 32px;
+    justify-content: center;
   }
   .container {
     max-width: 1180px;
