@@ -75,6 +75,10 @@
 }
 
 @media screen and (min-width: 768px) {
+    .reviews {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
     .reviews-title {
         width: 704px;
         font-size: 48px;
