@@ -1,7 +1,10 @@
 .footer-full {
   background-color: #1b414b;
+  width: 100%;
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
+  right: 0;
+  left: 0;
   padding: 0 10px;
 }
 
@@ -15,6 +18,12 @@
   border: none;
 }
 
+.footer-button-item:hover,
+.footer-button-item:focus {
+  background-color: rgba(251, 251, 251, 1);
+  color: rgba(27, 65, 75, 1);
+}
+
 .footer-button-list {
   display: flex;
   gap: 4px;
@@ -25,6 +34,14 @@
 }
 
 @media screen and (max-width: 767px) {
+  .contaiter {
+    max-width: 355px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .footer-button-item {
     min-width: 66px;
     font-family: Inter;
@@ -37,6 +54,7 @@
 
   .footer-first-part {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 40px;
     margin-bottom: 82px;
@@ -97,17 +115,14 @@
 
 @media screen and (min-width: 768px) {
   .contaiter {
-    min-width: 738px;
-    padding: 0 15px;
+    max-width: 738px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
 
   .footer-first-part {
     display: flex;
-    justify-content: space-between;
-  }
-
-  .footer-button-list {
-    display: flex;
+    gap: 126px;
   }
 
   .footer-tablet-plus {
@@ -124,11 +139,19 @@
 
   .footer-button-item {
     min-width: 91px;
+    font-family: Inter;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: center;
   }
 
   .footer-slogan {
-    max-height: 640px;
+    width: 640px;
     margin-bottom: 99px;
+    margin-right: auto;
+    margin-left: auto;
     font-size: 32px;
     line-height: 32px;
   }
@@ -136,5 +159,27 @@
   .footer-yacht-privicy-list {
     font-style: 14px;
     line-height: 16.52px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contaiter {
+    max-width: 1230px;
+  }
+
+  .footer-first-part {
+    gap: 360px;
+  }
+
+  .footer-slogan {
+    display: flex;
+    width: 693px;
+    align-items: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: center;
   }
 }
