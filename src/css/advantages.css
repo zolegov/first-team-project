@@ -94,12 +94,8 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    gap: 32px, 44px;
-    width: 704px;
-
-    padding-bottom: 90px;
-    padding-top: 90px;
     margin-bottom: 32px;
+    width: 704px;
   }
   .advantage-item {
     padding-left: 32px;
