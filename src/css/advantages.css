@@ -59,7 +59,7 @@
   text-align: left;
 }
 .advantage-subtitre-hr {
-  background: #fbfbfb1a;
+  color: #fbfbfb1a;
 
   margin-top: 18px;
   margin-bottom: 18px;
@@ -121,6 +121,7 @@
   .advantage-list {
     width: 714px;
     height: 424px;
+    margin: 0 32px;
   }
   .advantage-item {
     width: 292px;
