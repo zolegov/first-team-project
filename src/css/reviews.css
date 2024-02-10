@@ -31,16 +31,16 @@
 }
 
 .reviews-list {
-    background-color: #fbfbfb;
-    border-radius: 24px;
-    width: 335px;
     height: 282px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    gap: 32px;
 }
 
 .reviews-list-item {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    background-color: #fbfbfb;
+    border-radius: 24px;
 }
 
 .reviews-customers-block {
@@ -74,4 +74,29 @@
     padding-top: 32px;
 }
 
+@media screen and (min-width: 768px) {
+    .reviews-title {
+        width: 704px;
+        font-size: 48px;
+    }
+    .reviews-item {
+        font-size: 14px;
+        line-height: 1.28571;
+        width: 571px;
+        margin: auto;
+        padding-bottom: 75px;
+    }
+    .reviews-list-item {
+        width: calc((100% - 32px)/2);
+    }
+    .reviews-title-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
 
+@media screen and (min-width: 1280px) {
+    .reviews-list-item {
+        width: calc((100% - 32px)/3);
+    }
+}
