@@ -9,7 +9,7 @@
   display: block;
   cursor: pointer;
   text-decoration: none;
-  padding: 12px 0;
+  padding: 9px 0;
 }
 
 .header {
@@ -69,6 +69,10 @@
   .header {
     height: 48px;
     margin: 29px 32px 0px 32px;
+  }
+
+  .logo {
+    padding: 12px 0px;
   }
 
   .open-menu-btn {
