@@ -30,7 +30,8 @@
 .advantage-list {
   display: flex;
   flex-wrap: wrap;
-  width: 335px;
+  /* width: 335px; */
+  width: 100%;
   background-color: #1b414b;
   gap: 40px;
   border-radius: 24px;
@@ -104,13 +105,18 @@
     flex-wrap: wrap;
     gap: 32px;
   }
+  .advantage-conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
 
   .advantage-list {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-
     width: 704px;
+    gap: 32px 44px;
   }
   .advantage-item {
     padding-left: 32px;
@@ -146,6 +152,7 @@
   .advantage-list {
     width: 714px;
     height: 424px;
+    gap: 44px 44px;
   }
   .advantage-item {
     width: 292px;
