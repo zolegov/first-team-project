@@ -99,16 +99,15 @@
     padding-bottom: 75px;
     padding-top: 75px;
   }
-  .container {
+  /* .container {
     max-width: 734px;
     display: flex;
     flex-wrap: wrap;
    
-  }
+  } */
   .advantage-conteiner {
     display: flex;
-     flex-wrap: wrap; 
-  
+    flex-wrap: wrap;
   }
 
   .advantage-list {
@@ -156,7 +155,6 @@
     width: 714px;
     height: 424px;
     gap: 44px 44px;
-    padi
   }
   .advantage-item {
     width: 292px;
