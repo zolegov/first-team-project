@@ -103,4 +103,17 @@
     .reviews-list-item {
         width: calc((100% - 32px)/3);
     }
+    .reviews-title {
+        width: 854px;
+        }
+    .reviews-list {
+        flex-wrap: nowrap;
+    }
+    .reviews-title-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
 }
