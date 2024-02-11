@@ -81,7 +81,7 @@
 
 @media screen and (min-width: 768px) {
   .rent {
-    padding: 150px 0px;
+    padding: 75px 0px;
     /* max-width: 100%; */
     /* width: 768px; */
     min-height: 962px;
@@ -95,6 +95,10 @@
   .rent-imput-container {
     margin-left: 115px;
     margin-right: 115px;
+  }
+
+  .rent-imput-form {
+    margin-bottom: 100px;
   }
 
   .rent-imput {
