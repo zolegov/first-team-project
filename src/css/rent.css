@@ -8,6 +8,7 @@
 .rent-imput-form {
   display: flex;
   flex-direction: column;
+  margin-bottom: 80px;
 }
 
 .rent-title {
@@ -41,11 +42,12 @@
   margin-bottom: 40px;
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 12px;
-  padding: 14px 18px 80px 18px;
+  padding: 14px 18px;
   height: 108px;
   background-color: inherit;
   max-width: 100%;
   resize: none;
+  overflow: hidden;
 }
 
 .rent-text-imput::placeholder {
@@ -69,21 +71,19 @@
   line-height: 1.28571;
   letter-spacing: -0.02em;
   color: #fbfbfb;
-  margin-bottom: 80px;
 }
 
 .rent-section-img {
   border-radius: 24px;
   width: 335px;
   height: 412px;
-  object-fit: cover;
 }
 
 @media screen and (min-width: 768px) {
   .rent {
-    padding: 150px 0px;
+    padding: 75px 0px;
     /* max-width: 100%; */
-    width: 768px;
+    /* width: 768px; */
     min-height: 962px;
   }
 
@@ -97,10 +97,18 @@
     margin-right: 115px;
   }
 
+  .rent-imput-form {
+    margin-bottom: 100px;
+  }
+
   .rent-imput {
     padding: 18px 18px 18px 18px;
     width: 472px;
     height: 54px;
+  }
+
+  .rent-imput-form {
+    margin-bottom: 100px;
   }
 
   .rent-imput::placeholder {
@@ -110,7 +118,7 @@
 
   .rent-text-imput {
     margin-bottom: 50px;
-    padding: 18px 18px 80px 18px;
+    padding: 14px 18px;
     height: 116px;
   }
 
@@ -126,20 +134,17 @@
     font-size: 18px;
     line-height: 1.1;
     letter-spacing: -0.02em;
-    margin-bottom: 100px;
   }
+
   .rent-section-img {
     width: 704px;
     height: 534px;
-    object-fit: none;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .rent {
     padding: 75px 0px;
-    /* max-width: 100%; */
-    width: 1280px;
     min-height: 800px;
   }
 
