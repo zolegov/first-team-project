@@ -3,35 +3,39 @@
   <div class="rent-imput-img-desktop container">
     <div class="rent-imput-container">
       <h2 class="rent-title">Rent a yacht now</h2>
-      <input
-        type="text"
-        name="user-name"
-        placeholder="Full Name"
-        class="rent-imput"
-      />
-      <input
-        type="text"
-        name="user-email"
-        placeholder="Email"
-        class="rent-imput"
-      />
-      <input
-        type="text"
-        name="user-phone"
-        placeholder="Phone number"
-        class="rent-imput"
-      />
-      <textarea
-        name=""
-        id=""
-        placeholder="Comment"
-        class="rent-text-imput"
-      ></textarea>
-      <button type="submit" class="rent-btn">Send</button>
+      <form class="rent-imput-form">
+        <input
+          type="text"
+          name="user-name"
+          placeholder="Full Name"
+          class="rent-imput"
+        />
+        <input
+          type="text"
+          name="user-email"
+          placeholder="Email"
+          class="rent-imput"
+        />
+        <input
+          type="text"
+          name="user-phone"
+          placeholder="Phone number"
+          class="rent-imput"
+        />
+        <textarea
+          name="Comment"
+          id="Comment"
+          placeholder="Comment"
+          class="rent-text-imput"
+        ></textarea>
+        <button type="submit" class="rent-btn">Send</button>
+      </form>
     </div>
     <img
-      src="/img/rent/rent-yacht.jpg"
-      alt="A yacht on a lake among mountains"
+      srcset="../img/rent/rent-yacht.jpg 1x, ../img/rent/rent-yacht@2x.jpg 2x"
+      src="../img/rent/rent-yacht.jpg"
+      alt="A yacht on a lake among
+    mountains"
       class="rent-section-img"
     />
   </div>
