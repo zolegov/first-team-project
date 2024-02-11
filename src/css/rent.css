@@ -29,6 +29,7 @@
   height: 42px;
   background-color: inherit;
   margin-bottom: 18px;
+  color: #fbfbfb;
 }
 .rent-imput::placeholder {
   font-family: 'Inter', sans-serif;
