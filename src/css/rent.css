@@ -37,6 +37,9 @@
   line-height: 1.16667;
   color: rgba(251, 251, 251, 0.4);
 }
+.rent-imput:focus {
+  color: #fbfbfb;
+}
 
 .rent-text-imput {
   margin-bottom: 40px;
@@ -56,6 +59,10 @@
   font-size: 12px;
   line-height: 1.16667;
   color: rgba(251, 251, 251, 0.4);
+}
+
+.rent-text-imput:focus {
+  color: #fbfbfb;
 }
 
 .rent-btn {
