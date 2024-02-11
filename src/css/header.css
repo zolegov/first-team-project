@@ -42,6 +42,8 @@
   background-color: transparent;
   cursor: pointer;
   padding: 0;
+  width: 28px;
+  height: 28px;
 }
 
 .open-menu-btn-icon {
@@ -93,14 +95,6 @@
 
   .header-menu-item {
     position: relative;
-    background-color: rgba(27, 65, 75, 0.5);
-    border-radius: 8px;
-    width: 91px;
-    height: 40px;
-  }
-
-  .nav-item {
-    background-color: #1b414b;
   }
 
   .header-menu-item-link {
@@ -113,6 +107,10 @@
     line-height: 1.3em;
     text-transform: uppercase;
     padding: 15px 25px 15px 28px;
+    background-color: rgba(27, 65, 75, 0.5);
+    border-radius: 8px;
+    width: 91px;
+    height: 40px;
   }
 
   .contacts {
@@ -128,6 +126,8 @@
 
   .contacts-item-link {
     fill: #1b414b;
+    padding-top: 14px;
+    padding-bottom: 14px;
   }
 }
 
@@ -146,6 +146,11 @@
   .contacts-item-link:hover,
   .contacts-item-link:focus {
     fill: #062730;
+  }
+
+  .header-menu-item-link:hover,
+  .header-menu-item-link:focus {
+    background-color: #1b414b;
   }
 }
 
