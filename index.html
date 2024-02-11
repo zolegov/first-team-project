@@ -414,20 +414,23 @@
           placeholder="Full Name"
           class="rent-imput"
           pattern="[A-Za-zА-Яа-яЁё\s]+"
+          required
         />
         <input
-          type="text"
+          type="email"
           name="user-email"
           placeholder="Email"
           class="rent-imput"
           pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+          required
         />
         <input
-          type="text"
+          type="tel"
           name="user-phone"
           placeholder="Phone number"
           class="rent-imput"
           pattern="\(\d{3}\) \d{3}-\d{4}"
+          required
         />
         <textarea
           name="Comment"
@@ -440,7 +443,6 @@
     </div>
     <picture class="rent-section-img">
       <source
-        class="rent-section-img-des"
         srcset="/first-team-project/assets/rent-yacht-des@1x-b28b94f5.jpg 1x, /first-team-project/assets/rent-yacht-des@2x-041209a6.jpg 2x"
         media="(min-width: 1280px)"
       />
@@ -456,6 +458,7 @@
         src="/first-team-project/assets/rent-yacht-2c6f3929.jpg"
         alt="A yacht on a lake among
     mountains"
+        class="rent-section-img"
       />
     </picture>
   </div>
