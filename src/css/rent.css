@@ -8,8 +8,8 @@
 .rent-imput-form {
   display: flex;
   flex-direction: column;
-  gap: 18px;
 }
+
 .rent-title {
   font-family: 'Inter', sans-serif;
   font-weight: 500;
@@ -27,6 +27,7 @@
   max-width: 100%;
   height: 42px;
   background-color: inherit;
+  margin-bottom: 18px;
 }
 .rent-imput::placeholder {
   font-family: 'Inter', sans-serif;
@@ -80,8 +81,8 @@
 
 @media screen and (min-width: 768px) {
   .rent {
-    padding: 150px 32px;
-    max-width: 100%;
+    padding: 150px 0px;
+    /* max-width: 100%; */
     width: 768px;
     min-height: 962px;
   }
@@ -125,18 +126,19 @@
     font-size: 18px;
     line-height: 1.1;
     letter-spacing: -0.02em;
-    margin-bottom: 118px;
+    margin-bottom: 100px;
   }
   .rent-section-img {
-    width: 100%;
+    width: 704px;
     height: 534px;
+    object-fit: none;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .rent {
-    padding: 150px 50px;
-    max-width: 100%;
+    padding: 75px 0px;
+    /* max-width: 100%; */
     width: 1280px;
     min-height: 800px;
   }
@@ -153,7 +155,7 @@
   }
 
   .rent-section-img {
-    width: 658;
+    width: 658px;
     height: 536px;
     order: -1;
   }
