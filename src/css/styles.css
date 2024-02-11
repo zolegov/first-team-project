@@ -39,7 +39,7 @@ body {
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
-    
+
     padding: 0 32px;
   }
 }
@@ -47,8 +47,19 @@ body {
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
-    
+
     padding: 0 50px;
   }
 }
 /* test */
+.mobil-modal-header-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  flex-direction: column;
+  background-color: #0e1823;
+  padding-top: 20px;
+  width: 100%;
+  height: 100%;
+}

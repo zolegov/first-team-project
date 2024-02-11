@@ -257,14 +257,4 @@
   display: none;
 }
 
-.mobil-modal-header-wrap{
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  flex-direction: column;
-  background-color: #0e1823;
-  padding-top: 20px;
-  width: 100vh;
-  height: 100vh;
-}
+
