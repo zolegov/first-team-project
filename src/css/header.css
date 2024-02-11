@@ -261,6 +261,7 @@
   position: fixed;
   top: 0;
   left: 0;
+  right: 0;
   flex-direction: column;
   background-color: #0e1823;
   padding-top: 20px;
