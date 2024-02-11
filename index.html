@@ -20,7 +20,7 @@
     <title>YachtJet</title>
     
     <script type="module" crossorigin src="/first-team-project/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/first-team-project/assets/index-29b660e3.css">
+    <link rel="stylesheet" href="/first-team-project/assets/index-c39dd038.css">
   </head>
   <body>
     <header class="header">
@@ -476,13 +476,27 @@
     </div>
     <ul class="reviews-list">
       <li class="reviews-list-item">
-        <img
-          src="/first-team-project/assets/john-245e1f34.png"
-          alt="john"
-          width="56"
-          height="56"
-          class="reviews-img"
-        />
+        <picture>
+          <source
+            srcset="/first-team-project/assets/john-981d5e0a.jpg 1x, /first-team-project/assets/john-981d5e0a.jpg 2x"
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="/first-team-project/assets/john-tab-3ab1c192.jpg 1x, /first-team-project/assets/john-tab-3ab1c192.jpg 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/first-team-project/assets/john-mob-23fefb1a.jpg 1x, /first-team-project/assets/john-mob-23fefb1a.jpg 2x"
+            media="(max-width: 767px)"
+          />
+          <img
+            src="/first-team-project/assets/john-981d5e0a.jpg"
+            alt="john"
+            width="56"
+            height="56"
+            class="reviews-img"
+          />
+        </picture>
         <div class="reviews-customers-block">
           <h3 class="reviews-second-title">John Wax</h3>
           <p class="customers-item">
@@ -493,13 +507,24 @@
         </div>
       </li>
       <li class="reviews-list-item">
-        <img
-          src="/first-team-project/assets/victoriia-bacca01d.png"
-          alt="victoria"
-          width="56"
-          height="56"
-          class="reviews-img"
-        />
+        <picture>
+          <source
+            srcset="/first-team-project/assets/victoria-tab-dff7ccfc.jpg 1x, /first-team-project/assets/victoria-tab-dff7ccfc.jpg 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/first-team-project/assets/victoria-99c1723e.jpg 1x, /first-team-project/assets/victoria-99c1723e.jpg 2x"
+            media="(min-width: 1280px)"
+          />
+          <img
+            src="/first-team-project/assets/victoria-99c1723e.jpg"
+            alt="victoria"
+            width="56"
+            height="56"
+            class="reviews-img"
+          />
+        </picture>
+
         <div class="reviews-customers-block">
           <h3 class="reviews-second-title">Victoria Romashenko</h3>
           <p class="customers-item">
@@ -510,7 +535,20 @@
         </div>
       </li>
       <li class="reviews-list-item">
-        <img />
+        <picture>
+          <source
+            srcset="/first-team-project/assets/ihor-cd42d8b4.jpg 1x, /first-team-project/assets/ihor-cd42d8b4.jpg 2x"
+            media="min-width(1280px)"
+          />
+          <img
+            src="../img/reviews/ihor.jpg"
+            alt="ihor"
+            width="56"
+            height="56"
+            class="reviews-img"
+          />
+        </picture>
+
         <div class="reviews-customers-block">
           <h3 class="reviews-second-title">Ihor Trachuk</h3>
           <p class="customers-item">
