@@ -33,25 +33,38 @@
 body {
   background-color: #0e1823;
   font-family: 'Inter', sans-serif;
+  position: relative;
 }
-.container {
-  max-width: 375px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
+
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
-    margin: 0 auto;
     padding: 0 32px;
+  }
+  .mobil-modal-header-wrap {
+    display: none;
+  }
+  .header-container{
+    display: flex;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
-    margin: 0 auto;
+
     padding: 0 50px;
   }
 }
 /* test */
+.mobil-modal-header-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  flex-direction: column;
+  background-color: #0e1823;
+  padding-top: 20px;
+  max-width: 768px;
+  height: 100%;
+}

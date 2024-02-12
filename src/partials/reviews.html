@@ -1,4 +1,4 @@
-<section class="reviews">
+<section class="reviews" id="reviews">
   <div class="container">
     <div class="reviews-title-container">
       <h2 class="reviews-title">
@@ -13,13 +13,33 @@
     </div>
     <ul class="reviews-list">
       <li class="reviews-list-item">
-        <img
-          src="./img/reviews/john.png"
-          alt="john"
-          width="56"
-          height="56"
-          class="reviews-img"
-        />
+        <picture>
+          <source
+            srcset="./img/reviews/john.png 1x, ./img/reviews/john-2x.png 2x"
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="
+              ./img/reviews/john-tab.png    1x,
+              ./img/reviews/john-tab-2x.png 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ./img/reviews/john-mob.png    1x,
+              ./img/reviews/john-mob-2x.png 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <img
+            src="./img/reviews/john.png"
+            alt="john"
+            width="56"
+            height="56"
+            class="reviews-img"
+          />
+        </picture>
         <div class="reviews-customers-block">
           <h3 class="reviews-second-title">John Wax</h3>
           <p class="customers-item">
@@ -30,13 +50,30 @@
         </div>
       </li>
       <li class="reviews-list-item">
-        <img
-          src="./img/reviews/victoriia.png"
-          alt="victoria"
-          width="56"
-          height="56"
-          class="reviews-img"
-        />
+        <picture>
+          <source
+            srcset="
+              ./img/reviews/victoria-tab.png    1x,
+              ./img/reviews/victoria-tab-2x.png 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ./img/reviews/victoria.png    1x,
+              ./img/reviews/victoria-2x.png 2x
+            "
+            media="(min-width: 1280px)"
+          />
+          <img
+            src="./img/reviews/victoria.png"
+            alt="victoria"
+            width="56"
+            height="56"
+            class="reviews-img"
+          />
+        </picture>
+
         <div class="reviews-customers-block">
           <h3 class="reviews-second-title">Victoria Romashenko</h3>
           <p class="customers-item">
@@ -47,7 +84,20 @@
         </div>
       </li>
       <li class="reviews-list-item">
-        <img />
+        <picture>
+          <source
+            srcset="./img/reviews/ihor.png 1x, ./img/reviews/ihor-2x.png 2x"
+            media="min-width(1280px)"
+          />
+          <img
+            src="./img/reviews/ihor.png"
+            alt="ihor"
+            width="56"
+            height="56"
+            class="reviews-img"
+          />
+        </picture>
+
         <div class="reviews-customers-block">
           <h3 class="reviews-second-title">Ihor Trachuk</h3>
           <p class="customers-item">
