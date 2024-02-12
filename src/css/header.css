@@ -262,4 +262,7 @@
 .mobil-modal-nav-item:hover{
   background: rgb(27, 65, 75);
 }
+.modal-icon:hover{
+  fill: rgba(251, 251, 251, 0.8);
+}
 
