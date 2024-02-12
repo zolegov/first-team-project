@@ -160,7 +160,9 @@
   .rent {
     padding: 75px 0px;
   }
-
+  .rent-imput-form {
+    margin-bottom: 0;
+  }
   .rent-imput-img-desktop {
     display: flex;
   }
