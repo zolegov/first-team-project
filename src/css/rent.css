@@ -1,8 +1,5 @@
 .rent {
   padding: 40px 0px;
-  /* max-width: 100%;
-  width: 375px;
-  min-height: 812px; */
 }
 
 .rent-imput-form {
@@ -81,6 +78,15 @@
   color: #fbfbfb;
 }
 
+.rent-btn:focus {
+  background: #fbfbfb;
+  color: #1b414b;
+}
+.rent-btn:hover {
+  background: #fbfbfb;
+  color: #1b414b;
+}
+
 .rent-section-img {
   border-radius: 24px;
   width: 335px;
@@ -89,10 +95,7 @@
 
 @media screen and (min-width: 768px) {
   .rent {
-    padding: 75px 0px;
-    /* max-width: 100%; */
-    /* width: 768px; */
-    min-height: 962px;
+    padding: 150px 0px;
   }
 
   .rent-title {
@@ -153,7 +156,6 @@
 @media screen and (min-width: 1280px) {
   .rent {
     padding: 75px 0px;
-    min-height: 800px;
   }
 
   .rent-imput-img-desktop {
