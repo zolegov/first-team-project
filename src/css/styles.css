@@ -36,6 +36,18 @@ body {
   position: relative;
 }
 
+.header-container {
+  max-width: 704px;
+  border: 1px solid #fbfbfb;
+  border-radius: 8px;
+  background-color: #fbfbfb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -44,8 +56,9 @@ body {
   .mobil-modal-header-wrap {
     display: none;
   }
-  .header-container{
+  .header-container {
     display: flex;
+    max-width: 1080px;
   }
 }
 
@@ -55,8 +68,13 @@ body {
 
     padding: 0 50px;
   }
+
+  .header-container {
+    max-width: 1180px;
+  }
 }
 /* test */
+
 .mobil-modal-header-wrap {
   position: fixed;
   top: 0;
