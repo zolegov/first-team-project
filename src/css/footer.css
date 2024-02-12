@@ -38,6 +38,9 @@
 .contaiter {
   margin: 0 10px;
 }
+.footer-button-item:hover{
+    color: #1B414B;
+    }
 
 @media screen and (max-width: 767px) {
   .contaiter {
@@ -157,7 +160,7 @@
     letter-spacing: 0em;
     text-align: center;
   }
-
+ 
   .footer-slogan {
     width: 640px;
     margin-bottom: 99px;
