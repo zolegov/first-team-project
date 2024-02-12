@@ -138,7 +138,7 @@
 
 .yacht-rental-btn {
   display: block;
-  padding: 14px 32px;
+  padding: 13px 30px;
   margin: 0 auto;
   align-items: flex-start;
   border-radius: 15px;
@@ -151,7 +151,7 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
   cursor: pointer;
-  min-width: 141px;
+  width: 140px;
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
