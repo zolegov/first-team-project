@@ -250,10 +250,16 @@
   text-align: center;
   text-transform: uppercase;
 }
-.active {
+/* .active {
   background: rgb(27, 65, 75);
-}
+} */
 
 .is-close {
   display: none;
 }
+
+
+.mobil-modal-nav-item:hover{
+  background: rgb(27, 65, 75);
+}
+
