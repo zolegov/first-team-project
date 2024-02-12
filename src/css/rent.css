@@ -76,6 +76,9 @@
   line-height: 1.28571;
   letter-spacing: -0.02em;
   color: #fbfbfb;
+  transition-property: background-color;
+  transition-duration: .25s;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
 }
 
 .rent-btn:focus {
