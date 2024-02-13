@@ -5,7 +5,7 @@
   border-top-right-radius: 24px;
   right: 0;
   left: 0;
-  padding: 0 10px;
+  padding: 0 20px;
 }
 
 .footer-button-item-cont {
@@ -17,7 +17,7 @@
 .footer-button-item {
   background-color: rgba(251, 251, 251, 0.3);
   border-radius: 8px;
-  width: 91px;
+  /* width: 91px; */
   height: 40px;
   display: flex;
   align-items: center;
@@ -76,8 +76,8 @@
   gap: 4px;
   justify-content: center;
   align-items: center;
-  gap: 8px;
-  margin-bottom: 40px;
+  gap: 13px;
+  /* margin-bottom: 40px; */
 }
 
 .footer-social-link {
@@ -91,7 +91,8 @@
 }
 
 .footer-slogan {
-  margin-bottom: 82px;
+  width: 279px;
+  margin: 0 auto 82px;
   font-family: Inter;
   font-size: 18px;
   font-weight: 400;
@@ -113,11 +114,20 @@
   letter-spacing: 0.03em;
   color: rgba(251, 251, 251, 0.4);
 }
-
+.footer-tablet-plus {
+  margin-bottom: 40px;
+}
+footer {
+  padding-top: 40px;
+}
 @media screen and (min-width: 768px) {
+  footer {
+    padding-top: 75px;
+  }
+
   .footer-first-part {
     display: flex;
-    gap: 126px;
+    gap: 106px;
   }
 
   .footer-tablet-plus {
@@ -125,6 +135,9 @@
     justify-content: space-between;
     padding-top: 50px;
     margin-bottom: 96px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* margin-bottom: 40px; */
   }
 
   .footer-logo {
@@ -135,11 +148,15 @@
   .footer-button-item-cont {
     min-width: 91px;
   }
-
+  .footer-social-links-list {
+    margin-right: 10px;
+    align-items: flex-start;
+  }
   .footer-button-item {
     font-family: Inter;
     font-size: 9px;
     font-weight: 400;
+    width: 91px;
     line-height: 12px;
     letter-spacing: 0em;
     text-align: center;
@@ -156,12 +173,21 @@
 
   .footer-yacht-privicy-list {
     line-height: 16.52px;
+    gap: 32px;
+  }
+  .footer-text {
+    color: rgba(251, 251, 251, 0.4);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.18;
+    letter-spacing: 3%;
+    text-align: center;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .footer-first-part {
-    gap: 360px;
+    gap: 327px;
   }
 
   .footer-slogan {
@@ -175,4 +201,10 @@
     letter-spacing: -0.02em;
     text-align: center;
   }
+    .footer-tablet-plus {
+     
+    padding-left: 30px;
+    padding-right: 23px; 
+  }
+   
 }
