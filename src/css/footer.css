@@ -17,7 +17,6 @@
 .footer-button-item {
   background-color: rgba(251, 251, 251, 0.3);
   border-radius: 8px;
-  /* width: 91px; */
   height: 40px;
   display: flex;
   align-items: center;
@@ -40,7 +39,11 @@
 .footer-button-item:hover {
   color: #1b414b;
 }
-
+footer > .container{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+ 
 @media screen and (max-width: 767px) {
   .footer-button-item {
     min-width: 66px;
@@ -77,7 +80,6 @@
   justify-content: center;
   align-items: center;
   gap: 13px;
-  /* margin-bottom: 40px; */
 }
 
 .footer-social-link {
@@ -116,6 +118,8 @@
 }
 .footer-tablet-plus {
   margin-bottom: 40px;
+   padding-left: 10px;
+  padding-right: 10px;
 }
 footer {
   padding-top: 40px;
@@ -124,7 +128,10 @@ footer {
   footer {
     padding-top: 75px;
   }
-
+footer > .container {
+  padding-left: 16px;
+  padding-right: 16px;
+}
   .footer-first-part {
     display: flex;
     gap: 106px;
@@ -135,9 +142,8 @@ footer {
     justify-content: space-between;
     padding-top: 50px;
     margin-bottom: 96px;
-    padding-left: 10px;
-    padding-right: 10px;
-    /* margin-bottom: 40px; */
+    padding-left: 28px;
+    padding-right: 20px;
   }
 
   .footer-logo {
@@ -189,7 +195,10 @@ footer {
   .footer-first-part {
     gap: 327px;
   }
-
+footer > .container {
+  padding-left: 25px;
+  padding-right: 25px;
+}
   .footer-slogan {
     display: flex;
     width: 693px;
@@ -203,8 +212,8 @@ footer {
   }
     .footer-tablet-plus {
      
-    padding-left: 30px;
-    padding-right: 23px; 
+    padding-left: 56px;
+    padding-right: 46px; 
   }
    
 }

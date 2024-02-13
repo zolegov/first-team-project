@@ -2,9 +2,7 @@
   padding-top: 40px;
   padding-bottom: 40px;
 }
-
-.our-yachts-container {
-}
+ 
 
 .our-yachts-title {
   color: #fbfbfb;
@@ -162,7 +160,7 @@
   color: #1b414b;
 }
 
-/************MEDIA TABLET ***********/
+/* ***********MEDIA TABLET ********** */
 
 @media screen and (min-width: 768px) {
   .our-yachts-section {
