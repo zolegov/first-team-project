@@ -229,7 +229,7 @@
 .mobil-modal-soc {
   display: flex;
   gap: 13px;
-  fill: #fff;
+
   width: 88px;
   margin: 0 auto;
 }
@@ -259,11 +259,13 @@
   display: none;
 }
 
-
-.mobil-modal-nav-item:hover{
+.mobil-modal-nav-item:hover {
   background: rgb(27, 65, 75);
 }
-.modal-icon:hover{
+
+.modal-icon {
+  fill: #fbfbfb;
+}
+.modal-icon:hover {
   fill: rgba(251, 251, 251, 0.8);
 }
-
