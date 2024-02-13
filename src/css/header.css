@@ -203,9 +203,8 @@
 .mobil-modal-soc {
   display: flex;
   gap: 13px;
-
   width: 88px;
-  margin: 0 auto;
+  margin: auto auto 42px;
 }
 
 .mobil-modal-nav-item {
